@@ -1,0 +1,15 @@
+[Unit]
+Description=Docker UI container
+Documentation=https://docs.docker.com
+After=docker.service
+Requires=docker.service
+
+[Service]
+ExecStart=/usr/bin/docker start -a portainermgmt
+ExecStop=/usr/bin/docker stop -t 2 portainermgmt
+Restart=on-abnormal
+Nice=18
+
+[Install]
+Also=docker.socket
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+portainer (1.12.1) stable; urgency=medium
+
+  * Initial release of portainer (docker ui) app on readynas.
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Thu, 02 Jun 2016 18:19:29 -0700

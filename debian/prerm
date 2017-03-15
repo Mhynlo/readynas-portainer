@@ -1,0 +1,4 @@
+#--DockerUI--#
+docker stop portainermgmt
+docker rm portainermgmt
+docker rmi portainer/portainer:1.12.1

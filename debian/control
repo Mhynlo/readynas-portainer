@@ -1,0 +1,14 @@
+Source: portainer
+Section: contrib
+Priority: extra
+Maintainer: Mhynlo <mhynlo@mhynlo.io>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.8
+Homepage: http://portainer.io/
+
+Package: portainer
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.7.0~T169), kernelplus, docker-cli-rnapp
+Description: Docker UI lightweight management
+XB-Repo: deb https://download.docker.com/linux/debian jessie stable
+XB-Repo-Key-Url: https://download.docker.com/linux/debian/gpg
