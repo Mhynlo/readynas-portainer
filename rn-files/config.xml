@@ -4,8 +4,8 @@
   <Version>1.12.1</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL></ConfigURL><!-- 'localhost' will be replaced by framework JS. -->
-  <LaunchURL>http://localhost:9000</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
-  <ReservePort>9000</ReservePort>
+  <LaunchURL>http://localhost:9001</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
+  <ReservePort>9001</ReservePort>
   <DebianPackage>portainer</DebianPackage>
   <ServiceName>fvapp-portainer.service</ServiceName><!-- If start/stop need to start/stop service, specify service name -->
   <Description lang="en-us">Portainer is an open-source lightweight management UI which allows you to easily manager you Docker host or Swarm Cluseter</Description>
