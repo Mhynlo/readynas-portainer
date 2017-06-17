@@ -9,6 +9,7 @@ ExecStart=/usr/bin/docker start -a portainermgmt
 ExecStop=/usr/bin/docker stop -t 2 portainermgmt
 Restart=on-abnormal
 Nice=18
+SuccessExitStatus=2
 
 [Install]
 Also=docker.socket

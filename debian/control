@@ -8,7 +8,7 @@ Homepage: http://portainer.io/
 
 Package: portainer
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.7.0~T169), kernelplus, docker-cli-rnapp
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.7.0~T169), docker-cli-rnapp
 Description: Docker UI lightweight management
 XB-Repo: deb https://download.docker.com/linux/debian jessie stable
 XB-Repo-Key-Url: https://download.docker.com/linux/debian/gpg

@@ -1,3 +1,10 @@
+portainer (1.13.2) stable; urgency=medium
+
+  * Updated systemd config to no error on exit
+  * Major update
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Fri, 16 Jun 2017 19:07:54 -0700
+
 portainer (1.12.1) stable; urgency=medium
 
   * Initial release of portainer (docker ui) app on readynas.
