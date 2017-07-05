@@ -1,7 +1,7 @@
 <Application resource-id="portainer"><!-- 'resource-id' must be AppName -->
   <Name>Portainer</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>Mhynlo</Author><!-- Authers name. upto 48 chars -->
-  <Version>1.13.2</Version><!-- Version -->
+  <Version>1.13.4</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL></ConfigURL><!-- 'localhost' will be replaced by framework JS. -->
   <LaunchURL>http://localhost:9001</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
