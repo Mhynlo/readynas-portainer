@@ -1,3 +1,10 @@
+portainer (1.13.4) stable; urgency=medium
+
+  * Updating to the latest tag
+  * Fixed uninstall process in cases where docker is not installed.
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Wed, 05 Jul 2017 13:36:36 -0700
+
 portainer (1.13.2) stable; urgency=medium
 
   * Updated systemd config to no error on exit

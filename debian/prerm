@@ -1,4 +1,17 @@
 #--DockerUI--#
-docker stop portainermgmt
-docker rm portainermgmt
-docker rmi portainer/portainer:1.13.2
+dockerContainerName="portainermgmt"
+
+if docker ps -f name=$(dockerContainerName) | grep $(dockerContainerName)
+then
+  docker stop $(dockerContainerName)
+fi
+
+if docker stats --no-stream | grep $(dockerContainerName)
+then
+  docker rm $(dockerContainerName)
+fi
+
+if docker image ls | grep portainer/portainer
+then
+  docker rmi portainer/portainer:1.13.4
+fi
