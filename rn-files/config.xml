@@ -2,7 +2,7 @@
   <Category>APP_CAT_PRODUCTIVITY</Category>
   <Name>Portainer</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>Mhynlo</Author><!-- Authers name. upto 48 chars -->
-  <Version>1.13.4</Version><!-- Version -->
+  <Version>1.13.6</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL/>
   <LaunchURL>http://localhost:9001</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->

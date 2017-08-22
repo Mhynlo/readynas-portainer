@@ -1,5 +1,5 @@
 [Unit]
-Description=Docker UI container
+Description=Portainer container
 Documentation=https://docs.docker.com
 After=docker.service
 Requires=docker.service
