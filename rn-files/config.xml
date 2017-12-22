@@ -1,13 +1,13 @@
-<Application resource-id="portainer"><!-- 'resource-id' must be AppName -->
+<Application resource-id="portainer">
   <Category>APP_CAT_PRODUCTIVITY</Category>
-  <Name>Portainer</Name><!-- Any desciptive name, upto 48 chars -->
-  <Author>Mhynlo</Author><!-- Authers name. upto 48 chars -->
-  <Version>1.13.6</Version><!-- Version -->
-  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <Name>Portainer</Name>
+  <Author>Mhynlo</Author>
+  <Version>1.15.5-ml1</Version>
+  <RequireReboot>0</RequireReboot>
   <ConfigURL/>
-  <LaunchURL>http://localhost:9001</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
+  <LaunchURL>http://localhost:9001</LaunchURL>
   <ReservePort>9001</ReservePort>
   <DebianPackage>portainer</DebianPackage>
-  <ServiceName>fvapp-portainer.service</ServiceName><!-- If start/stop need to start/stop service, specify service name -->
+  <ServiceName>fvapp-portainer.service</ServiceName>
   <Description lang="en-us">Portainer is an open-source lightweight management UI which allows you to easily manager you Docker host or Swarm Cluseter</Description>
 </Application>
