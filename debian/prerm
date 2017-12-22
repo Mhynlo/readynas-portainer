@@ -12,5 +12,5 @@ if docker ps -f "name=${dockerContainerName}" -f "status=exited" | awk 'NR>1 {pr
 fi
 
 if docker image ls | grep portainer/portainer; then
-  docker rmi portainer/portainer:1.13.6
+  docker rmi portainer/portainer:1.15.5
 fi
