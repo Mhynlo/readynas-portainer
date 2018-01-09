@@ -2,7 +2,7 @@
   <Category>APP_CAT_PRODUCTIVITY</Category>
   <Name>Portainer</Name>
   <Author>Mhynlo</Author>
-  <Version>1.15.5-ml1</Version>
+  <Version>1.15.5-ml2</Version>
   <RequireReboot>0</RequireReboot>
   <ConfigURL/>
   <LaunchURL>http://localhost:9001</LaunchURL>
