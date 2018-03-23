@@ -1,3 +1,0 @@
-#--DockerUI--#
-docker pull portainer/portainer:1.15.5
-/usr/bin/docker create -p 9001:9000 --name=portainermgmt -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer:1.15.5

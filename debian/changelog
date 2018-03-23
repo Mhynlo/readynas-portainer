@@ -1,3 +1,10 @@
+portainer (1.16.4-ml0) stable; urgency=medium
+
+  * update major version
+  * fix install from remove location (postint instead of preinst)
+
+ -- Mhynlo <mhynlo@baneling.mhynlo>  Fri, 23 Mar 2018 10:24:47 -0700
+
 portainer (1.15.5-ml2) stable;  urgency=medium
 
   * Updating mainstream version.
