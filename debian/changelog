@@ -1,11 +1,17 @@
+portainer (1.16.4-ml1) stable; urgency=medium
+
+  * Fix for the portainer tag versioning (thanks to @grtessman)
+
+ -- Mhynlo <mhynlo@mhynlo.io>  Fri, 03 Apr 2020 17:33:09 -0700
+
 portainer (1.16.4-ml0) stable; urgency=medium
 
   * update major version
   * fix install from remove location (postint instead of preinst)
 
- -- Mhynlo <mhynlo@baneling.mhynlo>  Fri, 23 Mar 2018 10:24:47 -0700
+ -- Mhynlo <mhynlo@mhynlo.io>  Fri, 23 Mar 2018 10:24:47 -0700
 
-portainer (1.15.5-ml2) stable;  urgency=medium
+portainer (1.15.5-ml2) stable; urgency=medium
 
   * Updating mainstream version.
   * Creates (instead of run/stop) on install
