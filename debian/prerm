@@ -1,16 +1,19 @@
 #--DockerUI--#
 dockerContainerName="portainermgmt"
 
-if docker ps -f "name=${dockerContainerName}" | awk 'NR>1 {print $1}'; then
-  # docker stop ${dockerContainerName}
+if /usr/bin/docker ps -f "name=${dockerContainerName}" | awk 'NR>1 {print $1}'; then
   systemctl stop fvapp-portainer.service
-  docker rm ${dockerContainerName}
+  /usr/bin/docker rm ${dockerContainerName}
 fi
 
-if docker ps -f "name=${dockerContainerName}" -f "status=exited" | awk 'NR>1 {print $1}'; then
-  docker rm ${dockerContainerName}
+if /usr/bin/docker ps -f "name=${dockerContainerName}" -f "status=exited" | awk 'NR>1 {print $1}'; then
+  /usr/bin/docker rm ${dockerContainerName}
 fi
 
-if docker image ls | grep portainer/portainer; then
-  docker rmi portainer/portainer:linux-amd64-1.16.4
+if /usr/bin/docker volume ls | grep portainermgmt_data; then
+  /usr/bin/docker volume rm portainermgmt_data
+fi
+
+if /usr/bin/docker image ls | grep portainer/portainer-ce; then
+  /usr/bin/docker rmi portainer/portainer-ce:linux-amd64
 fi
